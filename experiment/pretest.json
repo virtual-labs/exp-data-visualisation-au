@@ -2,37 +2,37 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is Matplotlib primarily used for?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Data manipulation",
+        "b": "Data visualization",
+        "c": "Machine learning",
+        "d": "Data cleaning"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Matplotlib is not used for data manipulation, it is used for visualization.",
+        "b": "Correct! Matplotlib is a Python library used for data visualization.",
+        "c": "Matplotlib is not a machine learning library.",
+        "d": "Matplotlib is not used for data cleaning."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which of the following is NOT a plot type that can be created with Matplotlib?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Line plot",
+        "b": "Scatter plot",
+        "c": "Pie chart",
+        "d": "Web scraping"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Line plots are supported by Matplotlib.",
+        "b": "Scatter plots are supported by Matplotlib.",
+        "c": "Pie charts are supported by Matplotlib.",
+        "d": "Web scraping is not related to Matplotlib's functionality."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     }
   ]
