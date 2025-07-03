@@ -2,38 +2,55 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "How can you customize the color of a line plot in Matplotlib?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Use the `color` argument in the `plot()` function",
+        "b": "Use the `style` argument in the `plot()` function",
+        "c": "Use the `linecolor` argument in the `plot()` function",
+        "d": "You cannot change the color of a line plot"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct! The `color` argument is used to set the color of a line in a plot.",
+        "b": "The `style` argument is used to set line styles, not color.",
+        "c": "There is no `linecolor` argument in the `plot()` function.",
+        "d": "You can customize the color of a line plot."
       },
       "correctAnswer": "a",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which method would you use to add a title to a Matplotlib plot?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "title()",
+        "b": "set_title()",
+        "c": "add_title()",
+        "d": "set_name()"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct! The `title()` function is used to add a title to the plot.",
+        "b": "The `set_title()` method can also be used but is generally applied to axes objects.",
+        "c": "There is no `add_title()` function in Matplotlib.",
+        "d": "There is no `set_name()` function in Matplotlib."
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of the following statements is true about Matplotlib's subplot feature?",
+      "answers": {
+        "a": "Subplots allow you to create multiple plots in a single figure.",
+        "b": "You can only have one plot in a figure with subplots.",
+        "c": "Subplots are only used for scatter plots.",
+        "d": "Matplotlib does not support subplots."
+      },
+      "explanations": {
+        "a": "Correct! Subplots allow multiple plots to be displayed in a single figure, each in its own axis.",
+        "b": "You can have multiple plots with subplots.",
+        "c": "Subplots can be used for any type of plot, not just scatter plots.",
+        "d": "Matplotlib does support subplots."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
     }
   ]
 }
