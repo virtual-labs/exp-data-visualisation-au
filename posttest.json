@@ -1,0 +1,107 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "How can you customize the color of a line plot in Matplotlib?",
+      "answers": {
+        "a": "Use the `color` argument in the `plot()` function",
+        "b": "Use the `style` argument in the `plot()` function",
+        "c": "Use the `linecolor` argument in the `plot()` function",
+        "d": "You cannot change the color of a line plot"
+      },
+      "explanations": {
+        "a": "Correct! The `color` parameter is used to set line color.",
+        "b": "`style` is not a valid argument for color.",
+        "c": "`linecolor` does not exist in Matplotlib.",
+        "d": "Incorrect. Matplotlib allows full color customization."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which method would you use to add a title to a Matplotlib plot?",
+      "answers": {
+        "a": "title()",
+        "b": "set_title()",
+        "c": "add_title()",
+        "d": "set_name()"
+      },
+      "explanations": {
+        "a": "Correct! `plt.title()` adds a title to the plot.",
+        "b": "`set_title()` is valid but used for axes objects, not the basic call.",
+        "c": "Incorrect. No `add_title()` function exists.",
+        "d": "Incorrect. `set_name()` is not a Matplotlib function."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of the following statements is true about Matplotlib's subplot feature?",
+      "answers": {
+        "a": "Subplots allow you to create multiple plots in a single figure.",
+        "b": "You can only have one plot in a figure with subplots.",
+        "c": "Subplots are only used for scatter plots.",
+        "d": "Matplotlib does not support subplots."
+      },
+      "explanations": {
+        "a": "Correct! Subplots organize multiple charts inside one figure.",
+        "b": "Incorrect. Subplots enable multiple plots.",
+        "c": "Incorrect. Subplots support any plot type.",
+        "d": "Incorrect. Matplotlib fully supports subplots."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Which argument is used to set the label for the x-axis in a Matplotlib plot?",
+      "answers": {
+        "a": "xlabel()",
+        "b": "set_x()",
+        "c": "axis_label()",
+        "d": "set_labelx()"
+      },
+      "explanations": {
+        "a": "Correct! `plt.xlabel()` sets the x-axis label.",
+        "b": "Incorrect. No such function as `set_x()` for labeling.",
+        "c": "Incorrect. `axis_label()` does not exist.",
+        "d": "Incorrect. `set_labelx()` is not a Matplotlib function."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which Matplotlib function is commonly used to display a heatmap?",
+      "answers": {
+        "a": "imshow()",
+        "b": "heatplot()",
+        "c": "matrixplot()",
+        "d": "scatter()"
+      },
+      "explanations": {
+        "a": "Correct! `imshow()` displays matrix-like data and is commonly used for heatmaps.",
+        "b": "Incorrect. No function named `heatplot()` exists.",
+        "c": "Incorrect. `matrixplot()` is not a valid function.",
+        "d": "Incorrect. `scatter()` is used for point plots, not heatmaps."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which Matplotlib feature allows creating animated visualizations?",
+      "answers": {
+        "a": "FuncAnimation",
+        "b": "AnimatePlot",
+        "c": "MotionPlot",
+        "d": "DynamicGraph"
+      },
+      "explanations": {
+        "a": "Correct! `FuncAnimation` from `matplotlib.animation` is used for creating animations.",
+        "b": "Incorrect. `AnimatePlot` does not exist in Matplotlib.",
+        "c": "Incorrect. `MotionPlot` is not a Matplotlib feature.",
+        "d": "Incorrect. `DynamicGraph` is not a Matplotlib functionality."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    }
+  ]
+}
