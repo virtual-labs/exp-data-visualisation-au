@@ -1,4 +1,4 @@
-### Procedure
+
 <p><strong>Step 1:</strong> Observe the code editor and read the instructions.</p>
 <img src="./images/mat1.png" width="50%">
 

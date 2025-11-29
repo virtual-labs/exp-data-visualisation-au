@@ -4,36 +4,104 @@
     {
       "question": "What is Matplotlib primarily used for?",
       "answers": {
-        "a": "Data manipulation",
-        "b": "Data visualization",
-        "c": "Machine learning",
-        "d": "Data cleaning"
+        "a": "Data visualization",
+        "b": "Machine learning",
+        "c": "Data cleaning",
+        "d": "Database management"
       },
       "explanations": {
-        "a": "Matplotlib is not used for data manipulation, it is used for visualization.",
-        "b": "Correct! Matplotlib is a Python library used for data visualization.",
-        "c": "Matplotlib is not a machine learning library.",
-        "d": "Matplotlib is not used for data cleaning."
+        "a": "Correct! Matplotlib is the most widely used Python library for creating data visualizations.",
+        "b": "Incorrect. Machine learning libraries include scikit-learn, TensorFlow, etc.",
+        "c": "Incorrect. Matplotlib does not clean data; it visualizes it.",
+        "d": "Incorrect. Database management is handled by SQL, MongoDB, etc., not Matplotlib."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which feature makes Matplotlib suitable for professional, publication-ready graphics?",
+      "answers": {
+        "a": "It offers built-in machine learning models",
+        "b": "It can export high-resolution and vector format images",
+        "c": "It automatically cleans datasets",
+        "d": "It only supports basic plotting"
+      },
+      "explanations": {
+        "a": "Incorrect. Matplotlib does not provide ML models.",
+        "b": "Correct! Matplotlib allows exporting to formats such as PNG, PDF, SVG, and EPS.",
+        "c": "Incorrect. Data cleaning is not part of Matplotlib.",
+        "d": "Incorrect. It supports a wide range of plot types beyond basics."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "Which of the following is NOT a plot type that can be created with Matplotlib?",
+      "question": "Which of the following is NOT a plot type supported by Matplotlib?",
       "answers": {
         "a": "Line plot",
         "b": "Scatter plot",
-        "c": "Pie chart",
-        "d": "Web scraping"
+        "c": "Heatmap",
+        "d": "Web scraping chart"
       },
       "explanations": {
-        "a": "Line plots are supported by Matplotlib.",
-        "b": "Scatter plots are supported by Matplotlib.",
-        "c": "Pie charts are supported by Matplotlib.",
-        "d": "Web scraping is not related to Matplotlib's functionality."
+        "a": "Line plots are fully supported in Matplotlib.",
+        "b": "Scatter plots are fully supported.",
+        "c": "Heatmaps can be created using `imshow()` or other functions.",
+        "d": "Correct. Web scraping is not related to data visualization or Matplotlib."
       },
       "correctAnswer": "d",
       "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following libraries directly uses Matplotlib as its backend for plotting?",
+      "answers": {
+        "a": "NumPy",
+        "b": "Pandas",
+        "c": "TensorFlow",
+        "d": "OpenCV"
+      },
+      "explanations": {
+        "a": "Incorrect. NumPy is used for numerical operations, not plotting.",
+        "b": "Correct! Pandas uses Matplotlib internally when calling `df.plot()`.",
+        "c": "Incorrect. TensorFlow is a deep learning framework.",
+        "d": "Incorrect. OpenCV is used for computer vision, not plotting."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which feature of Matplotlib allows creating multiple plots in a single figure?",
+      "answers": {
+        "a": "GridSpec and subplots",
+        "b": "Neural networks",
+        "c": "Data cleaning tools",
+        "d": "Web automation"
+      },
+      "explanations": {
+        "a": "Correct! `plt.subplots()`, `GridSpec`, and layout tools help create multiple plots in one figure.",
+        "b": "Incorrect. Neural networks are unrelated to plotting.",
+        "c": "Incorrect. Matplotlib does not clean data.",
+        "d": "Incorrect. Web automation is unrelated."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which statement best describes Matplotlib's customization capabilities?",
+      "answers": {
+        "a": "It offers very limited customization options",
+        "b": "It allows full control over all visual elements such as colors, fonts, markers, and grids",
+        "c": "It only supports default styles without modification",
+        "d": "It automatically chooses all design elements with no manual control"
+      },
+      "explanations": {
+        "a": "Incorrect. Matplotlib has extensive customization features.",
+        "b": "Correct! Matplotlib gives complete control over every part of a visualization.",
+        "c": "Incorrect. Users can modify any style element.",
+        "d": "Incorrect. Matplotlib does not automate all design choices."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
     }
   ]
 }
